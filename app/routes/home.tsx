@@ -7,7 +7,7 @@ import { usePuterStore } from "~/lib/puter";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "CVmind" },
+    { title: "ATSight" },
     { name: "description", content: "Smart feedback for your dream job!" },
   ];
 }
@@ -40,7 +40,7 @@ export default function Home() {
   }, [])
 
   return (
-    <main className="bg-[url('/images/bg-main.svg')] bg-cover">
+    <main className="bg-[url('/images/bg-main2.png')] bg-cover">
       <Navbar />
       <section className="main-section">
         <div className="page-heading py-16">
