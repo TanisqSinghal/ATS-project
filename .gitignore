@@ -5,3 +5,15 @@
 # React Router
 /.react-router/
 /build/
+
+# build outputs
+dist
+build
+.vite
+.react-router
+
+# dependencies
+node_modules
+
+# env
+.env
